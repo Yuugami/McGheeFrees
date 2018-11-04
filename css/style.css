@@ -1,0 +1,166 @@
+/*- TESTING PURPOSES ONLY -*/
+/*-------------------- CORE --------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+p,
+a {
+  font-family: "Verdana", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at 50% 75%, #555 0%, #FFF 35%);
+}
+
+/*-------------------- HEADER --------------------*/
+header p {
+  position: absolute;
+  top: 7.5%;
+  left: 12%;
+  display: inline;
+  font-size: 26px;
+}
+
+#darken {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  display: none;
+}
+
+#jumbotron {
+  background-image: url("../img/intros/introimg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  width: 100%;
+  height: 90vh;
+  padding: 0;
+}
+
+/*-------------------- GALLERY --------------------*/
+.title p {
+  margin: 30px 0;
+  font-size: 2em;
+}
+
+#gallery {
+  position: relative;
+  width: 80vw;
+  height: 65vh;
+  margin: 9% auto;
+}
+#gallery .images {
+  position: absolute;
+  top: 64.5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  min-width: 0vh;
+  max-width: 100vh;
+  height: 100%;
+}
+
+main {
+  position: relative;
+}
+
+.w3-button {
+  position: absolute;
+  font-size: 3em;
+}
+
+span.w3-button {
+  position: absolute;
+  top: 0;
+  left: 29%;
+  float: left;
+  display: none;
+  z-index: -1;
+  font-size: 1em;
+  color: grey;
+}
+
+.w3-display-left {
+  top: 44%;
+  left: 3%;
+  float: left;
+}
+
+.w3-display-right {
+  bottom: 44.95%;
+  right: 3%;
+  clear: both;
+}
+
+/*------------ ICONIC BUTTON AND LOGIC ------------*/
+#icons-section {
+  clear: both;
+  position: relative;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.iconic {
+  position: absolute;
+}
+.iconic.iconic-image-landscape {
+  display: none;
+}
+
+/*-------------------- SUMMARY --------------------*/
+#summary {
+  position: relative;
+  top: 100px;
+  right: 0;
+  position: relative;
+  width: 80vw;
+  height: 65vh;
+  margin: 9% auto;
+  padding: 80px 0;
+}
+#summary p {
+  text-align: center;
+}
+#summary > p {
+  float: right;
+  width: 70%;
+}
+#summary #sumMsg p {
+  float: right;
+  width: 70%;
+}
+#summary img {
+  position: relative;
+  top: 50px;
+  float: left;
+  width: 266px;
+  height: 266px;
+}
+
+#icons-section {
+  position: relative;
+  top: 23px;
+}
+
+/*-------------------- FOOTER --------------------*/
+footer {
+  position: relative;
+}
+
+#copyright p {
+  margin: 10px 0;
+  text-align: center;
+  clear: both;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
